@@ -1,0 +1,60 @@
+#intro {
+    width: 1366px;
+    height: 750px;
+    background-image: url(/assets/Background_Contacts.png);
+    background-size: cover;
+    display: flex;
+}
+
+#info {
+    margin: 120px 163px 183px 163px;
+}
+
+
+
+#logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.profile-pic {
+    height: 112px;
+    width: 112px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#LogoGit {
+    color: var(--color-blue);
+}
+
+#LogoHTML {
+    color: var(--color-red);
+}
+
+#LogoCSS {
+
+}
+
+#LogoJS {
+
+}
+
+#LogoReact {
+
+}
+
+#LogoNode {
+
+}
+
+
+
+
+
+
+
+
+
+
+
