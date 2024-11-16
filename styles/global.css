@@ -38,6 +38,10 @@ body {
     --text-sm: 14px/140% var(--font-family-text);
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font: var(--title-lg);
     color: var(--color-base-gray600);

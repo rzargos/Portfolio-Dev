@@ -26,6 +26,7 @@
     border-radius: 50%;
     offset-position: top;
     border: solid 2px var(--color-red);
+    object-position: 0px 0px;
 }
 
 .code-logo {
@@ -43,7 +44,6 @@ figure {
     padding: 8px 16px;
     gap: 8px;
     align-items: center;
-    /* border: solid 2px red; */
     border-radius: 24px;
     background-color: var(--color-base-gray300);
 }
