@@ -1,18 +1,19 @@
 #projects {
-    width: 1366px;
     height: 917px;
+    padding: 72px 120px 144px 120px;
 }
 
 header {
     text-align: center;
+    margin-bottom: 56px;
     p {
         margin-bottom: 8px;
         margin-top: 40px;
-    }
+    }   
 }
 
 #project-grid {
-    margin: 56px 163px 144px 163px;
+
     img {
         width: 306px;
         height: 156px;
@@ -22,9 +23,6 @@ header {
     
     width: 1040px;
     height: 584px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
     place-content: center;
 }
 

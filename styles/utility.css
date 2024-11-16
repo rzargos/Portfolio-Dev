@@ -1,0 +1,12 @@
+.gap-24 {
+    gap: 24px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-3-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
