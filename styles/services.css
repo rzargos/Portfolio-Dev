@@ -2,14 +2,14 @@
     background-color: var(--color-base-gray100);
     height: 480px;
     padding: 88px 120px 120px 120px;
-}
 
-
-header {
-    margin-bottom: 56px;
-    p {
-        margin-bottom: 8px;
-    } 
+    header {
+        text-align: center;
+        margin-bottom: 56px;
+        p {
+            margin-bottom: 8px;
+        } 
+    }
 }
 
 #services-grid {
@@ -28,6 +28,10 @@ header {
         padding: 20px;
         border: solid 1px var(--color-base-gray300);
         border-radius: 8px;
+
+        p {
+            color: var(--color-base-gray500);
+        }
     }
 
     h3 {
