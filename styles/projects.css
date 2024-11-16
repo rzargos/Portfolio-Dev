@@ -1,0 +1,45 @@
+#projects {
+    width: 1366px;
+    height: 917px;
+}
+
+header {
+    text-align: center;
+    p {
+        margin-bottom: 8px;
+        margin-top: 40px;
+    }
+}
+
+#project-grid {
+    margin: 56px 163px 144px 163px;
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+        margin: 12px 12px 20px 12px;
+    }
+    
+    width: 1040px;
+    height: 584px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    place-content: center;
+}
+
+#project-grid div {
+    background-color: var(--color-base-gray300);
+    border-radius: 8px;
+    width: 330px;
+    height: 280px;
+}
+
+#project-grid h3 {
+    margin: 4px 16px 8px 16px ;
+}
+
+#project-grid p {
+    margin: 0px 16px 21px 16px;
+    color: var(--color-base-gray500)
+}

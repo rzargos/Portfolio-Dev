@@ -6,7 +6,7 @@
 
 body {
     width: 1366px;
-    height: 2934px;
+    height: auto;
     background-color: var(--background-color);
 }
 
